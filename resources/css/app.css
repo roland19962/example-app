@@ -1,0 +1,170 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@font-face {
+    font-family: 'Montserrat';
+    src: url('../fonts/montserrat.woff2') format('woff2');
+}
+
+body {
+    background: #ffffff;
+}
+
+.container-full {
+    width: 100%;
+}
+
+.container {
+    max-width: 1200px;
+    margin: 0 auto;
+    font-family: 'Montserrat';
+}
+
+header {
+    position: fixed;
+    z-index: 100;
+    background: #ffffff;
+    box-shadow: 0px 10px 20px 0px rgba(0, 0, 0, 0.05);
+}
+
+.header {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding-top: 46.5px;
+    padding-bottom: 46.5px;
+}
+
+.header .logo img {
+    width: 200px;
+    height: 27px;
+}
+
+.header .menu {
+    display: flex;
+}
+
+.header .menu .menu-item {
+    margin-right: 40px;
+}
+
+.header .menu .menu-item:last-child {
+    margin-right: 0;
+}
+
+.header .menu .menu-item {
+    position: relative;
+}
+
+.header .menu .menu-item .menu-sub-items {
+    display: none;
+    position: absolute;
+    z-index: 22;
+    top: 18px;
+    left: 0;
+    border-radius: 5px;
+    background: #ffffff;
+    box-shadow: 0px 3px 10px 1px rgba(84, 84, 97, 0.2);
+    padding: 15px;
+    width: fit-content;
+}
+.header .menu .menu-item .menu-sub-items .menu-sub-item {
+    margin-top: 6px;
+}
+
+.header .menu .menu-item .menu-sub-items .menu-sub-item:first-child {
+    margin-top: 0;
+}
+
+.header .menu .menu-item .menu-main-item {
+    display: flex;
+    align-items: flex-end;
+}
+
+.header .menu .menu-item .menu-main-item .image {
+    background-repeat: no-repeat;
+    margin-left: 3px;
+    width: 10px;
+    height: 16px;
+    background-image: url("../../public/images/menu_icon_hide.svg");
+}
+
+.header .menu .menu-item:hover .image {
+    background-image: url("../../public/images/menu_icon_open.svg");
+}
+
+.header .menu .menu-item, .header .menu .menu-item .menu-sub-items .menu-sub-item a {
+    font-weight: 500;
+    font-size: 15px;
+    line-height: 18px;
+    color: #6C7684;
+}
+
+.header .menu .menu-item:hover .menu-sub-items {
+    display: flex;
+    align-items: flex-start;
+    justify-content: center;
+    flex-direction: column;
+    width: 170px;
+}
+
+.header .menu .menu-item:hover .menu-main-item,
+.header .menu .menu-item:hover  .menu-sub-items .menu-sub-item a:hover{
+    color: #2284FF;
+    cursor: pointer;
+}
+
+.after-header {
+    height: 120px;
+}
+
+.about {
+    margin-top: 60px;
+}
+
+.preview-title {
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 16.8px;
+    color: #9DA3AB;
+    text-transform: uppercase;
+}
+
+.about .about-content {
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+}
+
+.about .about-content .about-content-title {
+    font-weight: 600;
+    font-size: 38px;
+    line-height: 45.6px;
+    color: #323232;
+    width: 392px;
+}
+
+.about .about-content .about-content-info {
+    width: 695px;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 25.2px;
+    color: #6C7684;
+}
+
+.about-links {
+    margin-top: 60px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.about-links .about-link {
+    margin-right: 20px;
+}
+
+.about-links .about-link:last-child {
+    margin-right: 0;
+}
+
