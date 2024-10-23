@@ -8,6 +8,9 @@
 
         @vite(['resources/css/app.css'])
 
+        <link rel="stylesheet" href="/owlcarousel/assets/owl.carousel.min.css">
+        <link rel="stylesheet" href="/owlcarousel/assets/owl.theme.default.min.css">
+
     </head>
     <body>
         <header class="container-full">
@@ -103,7 +106,7 @@
                 </div>
             </section>
 
-            <section class="our-objects">
+            <section class="our-objects container">
                 <div class="preview-title">
                     <span>Реализованые проекты</span>
                 </div>
@@ -121,23 +124,67 @@
                     </div>
                 </div>
                 <div class="our-objects-slider">
+
                     <div class="our-objects-slider-content">
+                        <div class="our-objects-slider-owl-carousel owl-carousel">
+                            <div>
+                                <div class="our-objects-slider-gradient"></div>
+                                <img src="/images/slide1.png" alt="our-objects">
+                                <div class="our-objects-slider-info">
+                                    <div class="our-objects-slider-info-subtitle">
+                                        <span>объект</span>
+                                    </div>
+                                    <div class="our-objects-slider-info-title">
+                                        <span>Наш объект</span>
+                                    </div>
+                                    <div class="our-objects-slider-info-content">
+                                        <span>Более 1000 уже реализованных проектов убеждают в том, что «Контардо» можно доверять проекты любой сложности. Созданные при нашем участии объекты возведены в самых разных местах — с неизменным качеством предоставленных климатических решений.</span>
+                                    </div>
+                                </div>
+                            </div>
+                            <div>
+                                <div class="our-objects-slider-gradient"></div>
+                                <img src="/images/slide1.png" alt="our-objects">
+                                <div class="our-objects-slider-info">
+                                    <div class="our-objects-slider-info-subtitle">
+                                        <span>объект</span>
+                                    </div>
+                                    <div class="our-objects-slider-info-title">
+                                        <span>Наш объект</span>
+                                    </div>
+                                    <div class="our-objects-slider-info-content">
+                                        <span>Более 1000 уже реализованных проектов убеждают в том, что «Контардо» можно доверять проекты любой сложности. Созданные при нашем участии объекты возведены в самых разных местах — с неизменным качеством предоставленных климатических решений.</span>
+                                    </div>
+                                </div>
+                            </div>
+                            <div>
+                                <div class="our-objects-slider-gradient"></div>
+                                <img src="/images/slide1.png" alt="our-objects">
+                                <div class="our-objects-slider-info">
+                                    <div class="our-objects-slider-info-subtitle">
+                                        <span>объект</span>
+                                    </div>
+                                    <div class="our-objects-slider-info-title">
+                                        <span>Наш объект</span>
+                                    </div>
+                                    <div class="our-objects-slider-info-content">
+                                        <span>Более 1000 уже реализованных проектов убеждают в том, что «Контардо» можно доверять проекты любой сложности. Созданные при нашем участии объекты возведены в самых разных местах — с неизменным качеством предоставленных климатических решений.</span>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="our-objects-slider-slider-nav">
+                            <img class="our-objects-slider-am-prev" src="/images/arrow_left.svg" alt="left">
+                            <img class="our-objects-slider-am-next" src="/images/arrow_right.svg" alt="right">
+                        </div>
+
+
                     </div>
-                    <div class="our-objects-slider-info">
-                        <div class="our-objects-slider-info-subtitle">
-                            <span>объект</span>
-                        </div>
-                        <div class="our-objects-slider-info-title">
-                            <span>Наш объект</span>
-                        </div>
-                        <div class="our-objects-slider-info-content">
-                            <span>Более 1000 уже реализованных проектов убеждают в том, что «Контардо» можно доверять проекты любой сложности. Созданные при нашем участии объекты возведены в самых разных местах — с неизменным качеством предоставленных климатических решений.</span>
-                        </div>
-                    </div>
+
                 </div>
             </section>
 
-            <section class="dealers">
+            <section class="dealers container">
                 <div class="preview-title">
                     <span>Сеть дилеров</span>
                 </div>
@@ -155,11 +202,11 @@
                     </div>
                 </div>
                 <div class="dealers-map">
-
+                    <img src="/images/rb.svg" alt="map">
                 </div>
             </section>
 
-            <section class="assortment">
+            <section class="assortment container">
                 <div class="preview-title">
                     <span>ассортимент</span>
                 </div>
@@ -178,30 +225,76 @@
                 </div>
                 <div class="assortment-slider">
                     <div class="assortment-slider-content">
-                    </div>
+                            <div class="assortment-slider-owl-carousel owl-carousel">
+                                <div>
+                                    <div class="assortment-slider-gradient"></div>
+                                    <img src="/images/slide2.jpeg" alt="assortment">
+                                    <div class="assortment-slider-info">
+                                        <div class="assortment-slider-info-subtitle">
+                                            <span>ассортимент</span>
+                                        </div>
+                                        <div class="assortment-slider-info-title">
+                                            <span>Шоурум в Минске</span>
+                                        </div>
+                                        <div class="assortment-slider-info-content">
+                                            <span>Находится по адресу: г. Минск, Старовиленский тракт, 87-214</span>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div>
+                                    <div class="assortment-slider-gradient"></div>
+                                    <img src="/images/slide2.jpeg" alt="assortment">
+                                    <div class="assortment-slider-info">
+                                        <div class="assortment-slider-info-subtitle">
+                                            <span>ассортимент</span>
+                                        </div>
+                                        <div class="assortment-slider-info-title">
+                                            <span>Шоурум в Минске</span>
+                                        </div>
+                                        <div class="assortment-slider-info-content">
+                                            <span>Находится по адресу: г. Минск, Старовиленский тракт, 87-214</span>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div>
+                                    <div class="assortment-slider-gradient"></div>
+                                    <img src="/images/slide2.jpeg" alt="assortment">
+                                    <div class="assortment-slider-info">
+                                        <div class="assortment-slider-info-subtitle">
+                                            <span>ассортимент</span>
+                                        </div>
+                                        <div class="assortment-slider-info-title">
+                                            <span>Шоурум в Минске</span>
+                                        </div>
+                                        <div class="assortment-slider-info-content">
+                                            <span>Находится по адресу: г. Минск, Старовиленский тракт, 87-214</span>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="assortment-slider-slider-nav">
+                                <img class="assortment-slider-am-prev" src="/images/arrow_left.svg" alt="left">
+                                <img class="assortment-slider-am-next" src="/images/arrow_right.svg" alt="right">
+                            </div>
 
-                    <div class="assortment-slider-info">
-                        <div class="assortment-slider-info-subtitle">
-                            <span>ассортимент</span>
+
                         </div>
-                        <div class="assortment-slider-info-title">
-                            <span>Шоурум в Минске</span>
-                        </div>
-                        <div class="assortment-slider-info-content">
-                            <span>Находится по адресу: г. Минск, Старовиленский тракт, 87-214</span>
-                        </div>
-                    </div>
+
+
                 </div>
             </section>
 
-            <section class="support">
+            <section class="support container">
                 <div class="preview-title">
                     <span>Техническая поддержка</span>
                 </div>
                 <div class="support-content">
-                    <div class="support-content-title">
-                        <span>Техническая поддержка партнеров</span>
+                    <div class="support-content-title-block">
+                        <div class="support-content-title">
+                            <span>Техническая поддержка партнеров</span>
+                        </div>
                     </div>
+
                     <div class="support-content-info-block">
                         <span>У компании «Кантардо» более 250 региональных сервисных центров. Гарантийный и пост‑гарантийный ремонт, сервисное обслуживание, обучение сотрудников сервиса от специалистов, прошедших обучение на заводах производителей.</span>
                     </div>
@@ -211,7 +304,7 @@
                 </div>
             </section>
 
-            <section class="partners">
+            <section class="partners container">
                 <div class="preview-title">
                     <span>Сотрудничество</span>
                 </div>
@@ -237,7 +330,7 @@
                             <span>Климатическим компаниям</span>
                         </div>
                         <div class="partners-image-info-content">
-                            <span>«Кантардо» — долгосрочный партнёр для профессионалов климатической отрасли, которые ценят квалифицированный подход к выбору оборудования, грамотные консультации, монтаж и сервисное обслуживание. Наша цель — помогать масштабировать бизнес наших партнёров.</span>
+                            <span>«Кантардо» — долгосрочный партнёр для профессионалов климатической отрасли, которые ценят квалифицированный подход к выбору оборудования, грамотные консультации, монтаж и сервисное обслуживание.<br><br>Наша цель — помогать масштабировать бизнес наших партнёров.</span>
                         </div>
                         <div class="partners-image-info-button">
                             <button>Стать партнером</button>
@@ -248,8 +341,8 @@
 
         </div>
 
-        <footer>
-            <div class="footer">
+        <footer class="container-full">
+            <div class="container footer">
                 <div class="first-part">
                     <div class="info">
                         <div class="info-logo">
@@ -327,6 +420,9 @@
                             <a href="/">Политика конфидециальности</a>
                         </div>
                         <div class="block">
+                            <img src="/images/line.svg" alt="line">
+                        </div>
+                        <div class="block">
                             <a href="/">©Kantardo2024. Все права защищены</a>
                         </div>
                     </div>
@@ -340,7 +436,42 @@
 
         </footer>
 
+        <script src="js/jquery.min.js"></script>
+        <script src="owlcarousel/owl.carousel.min.js"></script>
+
         @vite(['resources/js/app.js'])
+
+        <script>
+
+            $(document).ready(function() {
+                $(".our-objects-slider-owl-carousel").owlCarousel({
+                    loop: false,
+                    nav: true,
+                    dots: false,
+                    navText: [$('.our-objects-slider-am-prev'), $('.our-objects-slider-am-next')],
+                    responsive: {
+                        0: {
+                            items: 1
+                        }
+                    }
+                });
+                $(".assortment-slider-owl-carousel").owlCarousel({
+                    loop: false,
+                    nav: true,
+                    dots: false,
+                    navText: [$('.assortment-slider-am-prev'), $('.assortment-slider-am-next')],
+                    responsive: {
+                        0: {
+                            items: 1
+                        }
+                    }
+                });
+
+
+
+            });
+
+        </script>
 
     </body>
 </html>
