@@ -13,6 +13,87 @@
 
     </head>
     <body>
+
+    <div id="pop-up" class="pop-up " > <!-- pop-up-hide -->
+
+        <div id="pop-up-inner-bg" class="pop-up-inner-bg">
+        </div>
+
+        <div class="pop-up-inner">
+
+            <div class="row no-gutters ">
+                <div class="form-column">
+
+                    <div class="inner-column">
+
+                        <div class="discount-form">
+
+                            <div class="section-title pop-up-section-title">
+                                <div class="pop-up-section-title-img"> <img id="pop-up-close" src="/images/close.svg" alt="close"></div>
+                                <div class="title">
+                                    <span>Стать партнером</span>
+                                </div>
+                                <div class="sub-title">
+                                    <span>Укажите контактный данные</span>
+                                </div>
+                            </div>
+                            <form action="" method="post" class="ajax_form">
+
+                                <div class="control-group form-group">
+                                    <div class="controls">
+                                        <input type="text" name="name" value="" placeholder="Имя">
+                                        <span class="error_name"></span>
+                                    </div>
+                                </div>
+                                <div class="control-group form-group phone">
+                                    <div class="controls">
+                                        <input id="pop_up_special_phone" type="tel" name="phone" value="" placeholder="+375 (99) 99-99-999" minlength="9">
+                                        <span class="error_phone"></span>
+                                    </div>
+                                </div>
+                                <div class="control-group form-group email">
+                                    <div class="controls">
+                                        <input type="text" name="email" value="" placeholder="Email">
+                                        <span class="error_email"></span>
+                                    </div>
+                                </div>
+                                <div class="control-group form-group company">
+                                    <div class="controls">
+                                        <input type="text" name="company" value="" placeholder="Наименование компании">
+                                        <span class="error_company"></span>
+                                    </div>
+                                </div>
+                                <div class="control-group form-group city">
+                                    <div class="controls">
+                                        <input type="text" name="city" value="" placeholder="Город">
+                                        <span class="error_city"></span>
+                                    </div>
+                                </div>
+                                <div class="control-group form-group number">
+                                    <div class="controls">
+                                        <input type="text" name="number" value="" placeholder="ИНН">
+                                        <span class="error_number"></span>
+                                    </div>
+                                </div>
+
+
+                                <div class="control-group form-group send">
+                                    <div class="controls">
+                                        <button type="submit" class="btn btn-primary">Отправить</button>
+                                    </div>
+                                    <div class="text">
+                                        <span>Нажимая кнопку «Отправить», вы соглашаетесь c <a href="/">политикой конфидециальности и пользовательским соглашением</a>></span>
+                                    </div>
+                                </div>
+                            </form>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+
         <header class="container-full">
             <div class="container header">
                 <div class="logo">
@@ -77,6 +158,262 @@
         </header>
 
         <section class="after-header"></section>
+
+        <section class="daikin-slider container-full">
+            <div class="daikin-slider-content">
+                <div class="daikin-slider-owl-carousel owl-carousel">
+                    <div>
+                        <img src="/images/daikin_slider.svg" alt="slider">
+                    </div>
+                    <div>
+                        <img src="/images/daikin_slider.svg" alt="slider">
+                    </div>
+                    <div>
+                        <img src="/images/daikin_slider.svg" alt="slider">
+                    </div>
+                    <div>
+                        <img src="/images/daikin_slider.svg" alt="slider">
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <div class="breadcrumbs container">
+            <div class="breadcrumb-link">
+                <a href="/">Главная</a>
+            </div>
+            <div class="breadcrumb-arrow">
+                <img src="/images/arrow_breadcrumb.svg">
+            </div>
+            <div class="breadcrumb-current">
+                <span>Daikin</span>
+            </div>
+        </div>
+
+        <section class="daikin-content container">
+
+            <div class="navigation">
+                <div class="title">
+                    <span>Продукция</span>
+                </div>
+                <div class="link">
+                    <a href="/">Бытовое кондиционирование</a>
+                </div>
+                <div class="link">
+                    <a href="/">Мульти-сплит-системы</a>
+                </div>
+            </div>
+            <div class="products">
+                <div class="product">
+                        <div class="info">
+                            <div class="info-image">
+                                <img src="/images/product_logo_1.svg" alt="product">
+                            </div>
+                            <div class="info-content">
+                                <div class="title">
+                                    <span>Бытовое кондиционирование</span>
+                                </div>
+                                <div class="text">
+                                    <span>Это компактное оборудование, предназначенное для охлаждения воздуха в одной комнате. К этой категории относят передвижные, оконные модели. В классе RAC также представлены сплит-системы малой мощности.</span>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="items">
+                            <div class="item">
+                                <div class="first-part">
+                                    <div class="image">
+                                        <img src="/images/item.jpeg" alt="item">
+                                    </div>
+                                    <div class="options">
+                                        <div class="option">
+                                            <div class="option-image">
+                                                <img src="/images/option.svg" alt="option">
+                                            </div>
+                                            <div class="option-text">
+                                                <span>DC-инвертор</span>
+                                            </div>
+                                        </div>
+                                        <div class="option">
+                                            <div class="option-image">
+                                                <img src="/images/option.svg" alt="option">
+                                            </div>
+                                            <div class="option-text">
+                                                <span>DC-инвертор</span>
+                                            </div>
+                                        </div>
+                                        <div class="option">
+                                            <div class="option-image">
+                                                <img src="/images/option.svg" alt="option">
+                                            </div>
+                                            <div class="option-text">
+                                                <span>DC-инвертор</span>
+                                            </div>
+                                        </div>
+                                        <div class="option">
+                                            <div class="option-image">
+                                                <img src="/images/option.svg" alt="option">
+                                            </div>
+                                            <div class="option-text">
+                                                <span>DC-инвертор</span>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="second-part">
+                                    <div class="title">
+                                        <span>Бытовой кондиционер AIRWAVE Серия M</span>
+                                    </div>
+                                    <div class="text">
+                                        <span>Комфортный микроклимат и экономия энергии</span>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="item">
+                                <div class="first-part">
+                                    <div class="image">
+                                        <img src="/images/item_1.svg" alt="item">
+                                    </div>
+                                    <div class="options">
+                                        <div class="option">
+                                            <div class="option-image">
+                                                <img src="/images/option.svg" alt="option">
+                                            </div>
+                                            <div class="option-text">
+                                                <span>DC-инвертор</span>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="second-part">
+                                    <div class="title">
+                                        <span>Внутренний блок кондиционера Daichi ICE Inverter</span>
+                                    </div>
+                                    <div class="text">
+                                        <span>Комфортный микроклимат и экономия энергии</span>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="item">
+                                <div class="first-part">
+                                    <div class="image">
+                                        <img src="/images/item_1.svg" alt="item">
+                                    </div>
+                                    <div class="options">
+                                        <div class="option">
+                                            <div class="option-image">
+                                                <img src="/images/option.svg" alt="option">
+                                            </div>
+                                            <div class="option-text">
+                                                <span>DC-инвертор</span>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="second-part">
+                                    <div class="title">
+                                        <span>Внутренний блок кондиционера Daichi ICE Inverter</span>
+                                    </div>
+                                    <div class="text">
+                                        <span>Комфортный микроклимат и экономия энергии</span>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="item">
+                                <div class="first-part">
+                                    <div class="image">
+                                        <img src="/images/item_1.svg" alt="item">
+                                    </div>
+                                    <div class="options">
+                                        <div class="option">
+                                            <div class="option-image">
+                                                <img src="/images/option.svg" alt="option">
+                                            </div>
+                                            <div class="option-text">
+                                                <span>DC-инвертор</span>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="second-part">
+                                    <div class="title">
+                                        <span>Внутренний блок кондиционера Daichi ICE Inverter</span>
+                                    </div>
+                                    <div class="text">
+                                        <span>Комфортный микроклимат и экономия энергии</span>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="item">
+                                <div class="first-part">
+                                    <div class="image">
+                                        <img src="/images/item_1.svg" alt="item">
+                                    </div>
+                                    <div class="options">
+                                        <div class="option">
+                                            <div class="option-image">
+                                                <img src="/images/option.svg" alt="option">
+                                            </div>
+                                            <div class="option-text">
+                                                <span>DC-инвертор</span>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="second-part">
+                                    <div class="title">
+                                        <span>Внутренний блок кондиционера Daichi ICE Inverter</span>
+                                    </div>
+                                    <div class="text">
+                                        <span>Комфортный микроклимат и экономия энергии</span>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                <div class="product">
+                        <div class="info">
+                            <div class="info-image">
+                                <img src="/images/product_logo_2.svg" alt="product">
+                            </div>
+                            <div class="info-content">
+                                <div class="title">
+                                    <span>Мульти-сплит-системы</span>
+                                </div>
+                                <div class="text">
+                                    <span>Это компактное оборудование, предназначенное для охлаждения воздуха в одной комнате. К этой категории относят передвижные, оконные модели. В классе RAC также представлены сплит-системы малой мощности.</span>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="items">
+                            <div class="item">
+                                <div class="first-part">
+                                    <div class="image">
+                                        <img src="/images/item_1.svg" alt="item">
+                                    </div>
+                                    <div class="options">
+                                        <div class="option">
+                                            <div class="option-image">
+                                                <img src="/images/option.svg" alt="option">
+                                            </div>
+                                            <div class="option-text">
+                                                <span>DC-инвертор</span>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="second-part">
+                                    <div class="title">
+                                        <span>Внутренний блок кондиционера Daichi ICE Inverter</span>
+                                    </div>
+                                    <div class="text">
+                                        <span>Комфортный микроклимат и экономия энергии</span>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+            </div>
+        </section>
 
         <div class="container-full">
 
@@ -333,7 +670,7 @@
                             <span>«Кантардо» — долгосрочный партнёр для профессионалов климатической отрасли, которые ценят квалифицированный подход к выбору оборудования, грамотные консультации, монтаж и сервисное обслуживание.<br><br>Наша цель — помогать масштабировать бизнес наших партнёров.</span>
                         </div>
                         <div class="partners-image-info-button">
-                            <button>Стать партнером</button>
+                            <button id="partners-action">Стать партнером</button>
                         </div>
                     </div>
                 </div>
@@ -441,9 +778,35 @@
 
         @vite(['resources/js/app.js'])
 
-        <script>
+        <script type="text/javascript">
+
+
+
 
             $(document).ready(function() {
+
+                $("#partners-action").on( "click", function() {
+                    console.log('ffffffffff')
+                    $( "#pop-up").removeClass("pop-up-hide");
+                });
+                $("#pop-up-close").on( "click", function() {
+                    $( "#pop-up" ).addClass("pop-up-hide");
+                });
+                $("#pop-up-inner-bg" ).on( "click", function() {
+                    $( "#pop-up" ).addClass("pop-up-hide");
+                });
+
+                $(".daikin-slider-owl-carousel").owlCarousel({
+                    loop: false,
+                    nav: false,
+                    responsive: {
+                        0: {
+                            items: 1
+                        }
+                    }
+                });
+
+
                 $(".our-objects-slider-owl-carousel").owlCarousel({
                     loop: false,
                     nav: true,

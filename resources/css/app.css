@@ -738,3 +738,259 @@ footer {
 .footer .second-part .right img {
     display: inline;
 }
+
+.daikin-slider .daikin-slider-content {
+    position: relative;
+}
+
+.daikin-slider .daikin-slider-content .owl-dots {
+    position: absolute;
+    z-index: 2;
+    bottom: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+}
+
+.daikin-slider {
+    height: 240px;
+}
+
+.daikin-slider .daikin-slider-content .owl-dots .owl-dot span {
+    width: 10px;
+    height: 10px;
+    margin: 5px 7px;
+    background: #E1E1E5;
+    display: block;
+    -webkit-backface-visibility: visible;
+    transition: opacity .2s ease;
+    border-radius: 30px;
+}
+
+.daikin-slider .daikin-slider-content .owl-dots .owl-dot.active span, .daikin-slider .daikin-slider-content .owl-dots .owl-dot:hover span {
+    background: #1B96FF;
+}
+
+.breadcrumbs {
+    margin-top: 25px;
+    display: flex;
+    align-items: center;
+}
+
+.breadcrumbs .breadcrumb-link {
+    margin-right: 15px;
+}
+
+.breadcrumbs .breadcrumb-link a {
+    color: #6C7684;
+    font-weight: 600;
+    font-size: 12px;
+    line-height: 21.6px;
+}
+
+
+.breadcrumbs .breadcrumb-arrow {
+    margin-right: 15px;
+}
+
+.breadcrumbs .breadcrumb-current span {
+    color: #6C7684;
+    font-weight: 600;
+    font-size: 12px;
+    line-height: 21.6px;
+    opacity: 0.4;
+}
+
+.daikin-content {
+    margin-top: 60px;
+    display: flex;
+    align-items: flex-start;
+    justify-content: space-between;
+}
+
+.daikin-content .navigation {
+    width: 290px;
+    border-bottom: 1px solid #6C768433;
+}
+
+.daikin-content .navigation .title {
+    margin-bottom: 20px;
+    color: #323232;
+    font-weight: 600;
+    font-size: 16px;
+    line-height: 22.4px;
+}
+
+.daikin-content .navigation .link {
+    margin-bottom: 15px;
+}
+
+.daikin-content .navigation .link a {
+    color: #323232;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 19.6px;
+    opacity: 0.6;
+}
+
+
+.daikin-content .products {
+    width: 870px;
+}
+
+.daikin-content .products .product .info {
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+}
+
+.daikin-content .products .product .info .info-image {
+    width: 350px;
+    height: 132px;
+}
+
+.daikin-content .products .product .info .info-content {
+    width: 480px;
+}
+
+.daikin-content .products .product .info .info-content .title {
+    color: #323232;
+    font-weight: 600;
+    font-size: 24px;
+    line-height: 31.2px;
+}
+
+.daikin-content .products .product .info .info-content .text {
+    margin-top: 15px;
+    color: #6C7684;
+    font-weight: 400;
+    font-size: 15px;
+    line-height: 27px;
+    opacity: 0.6;
+}
+
+.daikin-content .products .product .items {
+    margin-top: 25px;
+    display: flex;
+    align-items: flex-start;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    border-bottom: 1px solid #6C768433;
+    margin-bottom: 40px;
+    padding-bottom: 40px;
+}
+
+.daikin-content .products .product .items .item {
+    width: 418px;
+    margin-top: 15px;
+}
+
+.daikin-content .products .product .items .item .first-part {
+    position: relative;
+}
+
+
+.daikin-content .products .product .items .item .first-part {
+
+}
+
+.daikin-content .products .product .items .item .first-part .image img {
+    width: 418px;
+    height: 300px;
+    border: 1px solid #6C768433;
+    border-radius: 10px;
+}
+
+.daikin-content .products .product .items .item .first-part .options {
+    position: absolute;
+    z-index: 2;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: flex-start;
+    left: 12px;
+    right: 0;
+    bottom: 0;
+}
+
+.daikin-content .products .product .items .item .first-part .options .option {
+    border-radius: 4px;
+    border: 1px solid #6C76841A;
+    padding: 4px 8px 4px 8px;
+    margin-right: 12px;
+    margin-bottom: 12px;
+}
+
+.daikin-content .products .product .items .item .first-part .options .option {
+    display: flex;
+    align-items: center;
+}
+
+.daikin-content .products .product .items .item .first-part .options .option .option-image {
+    width: 18px;
+    height: 18px;
+    margin-right: 8px;
+}
+
+.daikin-content .products .product .items .item .first-part .options .option .option-text {
+    color: #6C7684;
+    font-weight: 600;
+    font-size: 12px;
+    line-height: 15.6px;
+}
+
+.daikin-content .products .product .items .item .second-part {
+    margin-top: 15px;
+}
+
+.daikin-content .products .product .items .item .second-part .title {
+    margin-bottom: 5px;
+    color: #323232;
+    font-weight: 600;
+    font-size: 16px;
+    line-height: 20.8px;
+}
+
+.daikin-content .products .product .items .item .second-part .text {
+    margin-bottom: 15px;
+    color: #323232;
+    opacity: 0.6;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 19.6px;
+}
+
+.pop-up {
+    position: fixed;
+    z-index: 99997;
+    width: 100%;
+    height: 100%;
+    top: 0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.pop-up .section-title h2 {
+    font-size: 28px;
+    line-height: 34px;
+    color: #252330;
+    font-weight: 500;
+    margin-bottom: 24px;
+}
+.pop-up-inner-bg {
+    z-index: 99998;
+    position: fixed;
+    width: 100%;
+    height: 100%;
+    background: #00000099;
+}
+.pop-up-inner {
+    z-index: 99999;
+    background: #fff;
+    width: fit-content;
+    height: fit-content;
+    padding: 30px;
+}
+.pop-up-hide {
+    display: none;
+}
