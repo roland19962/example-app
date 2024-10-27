@@ -7,6 +7,11 @@
     src: url('../fonts/montserrat.woff2') format('woff2');
 }
 
+button {
+    outline: none !important;
+    box-shadow: none !important;
+}
+
 body {
     background: #ffffff;
 }
@@ -970,13 +975,7 @@ footer {
     align-items: center;
     justify-content: center;
 }
-.pop-up .section-title h2 {
-    font-size: 28px;
-    line-height: 34px;
-    color: #252330;
-    font-weight: 500;
-    margin-bottom: 24px;
-}
+
 .pop-up-inner-bg {
     z-index: 99998;
     position: fixed;
@@ -984,13 +983,156 @@ footer {
     height: 100%;
     background: #00000099;
 }
+
 .pop-up-inner {
     z-index: 99999;
     background: #fff;
     width: fit-content;
     height: fit-content;
-    padding: 30px;
+    border-radius: 10px;
 }
+
 .pop-up-hide {
     display: none;
+}
+
+.pop-up-form {
+    background: #FFFFFF;
+    border-radius: 10px;
+    padding: 50px 56px;
+    position: relative;
+}
+
+.pop-up-form .pop-up-section-title-img {
+    position: absolute;
+    top: 24px;
+    right: 24px;
+    cursor: pointer;
+
+}
+
+.pop-up-form .pop-up-section-title .title {
+    font-weight: 700;
+    font-size: 28px;
+    line-height: 36.4px;
+    color: #40404D;
+}
+
+.pop-up-form  .pop-up-section-title .sub-title {
+    margin-top: 40px;
+    font-weight: 600;
+    font-size: 18px;
+    line-height: 19.8px;
+    color: #40404D;
+}
+
+
+.pop-up-form .input-box {
+    position: relative;
+    background: #ffffff;
+    transition: 0.2s ease-in;
+    margin-top: 15px;
+
+}
+
+.pop-up-form .input-box label {
+    position: absolute;
+    top: 22px;
+    left: 24px;
+    z-index: 1;
+    display: block;
+    font-weight: 500;
+    color: #323232;
+    font-size: 16px;
+    line-height: 19.5px;
+    margin-bottom: 0;
+    transition: 0.2s ease-in;
+}
+
+.pop-up-form input:focus ~ label, .pop-up-form input:active ~ label {
+    color: #323232;
+}
+
+.pop-up-form input {
+    border-radius: 6px;
+    background: #F0F0F4;
+    padding: 31px 24px 14px 24px;
+    position: relative;
+    z-index: 2;
+    font-size: 16px;
+    line-height: 19.5px;
+    transition: 0.4s ease-in;
+    width: 100%;
+    height: 65px;
+    font-weight: 500;
+    color: #323232;
+    outline: none !important;
+    box-shadow: none !important;
+    opacity: 0.6;
+}
+
+.input-box .load, .input-box input:active~label, .input-box input:focus~label, .input-box input:valid~label {
+    font-size: 13px;
+    line-height: 0;
+    top: 17px;
+    z-index: 2;
+}
+
+
+
+.red {
+    color: #FF000099;
+    opacity: 1;
+}
+
+.pop-up-form .w-100 {
+    width: 100%;
+}
+
+.pop-up-form .w-50 {
+    width: 48%;
+}
+
+.pop-up-form .ajax_form {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    width: 695px;
+}
+
+.pop-up-form .control-group {
+    width: 100%;
+    margin-top: 30px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.pop-up-form .control-group button {
+    padding: 17px 64px 17px 64px;
+    border-radius: 5px;
+    background: #3281C4;
+}
+
+.pop-up-form .control-group button span {
+    color: #FFFFFF;
+    font-weight: 500;
+    font-size: 16px;
+}
+
+
+.pop-up-form .control-group .text {
+    width: 450px;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 22.4px;
+}
+
+.pop-up-form .control-group .text  span {
+    color: #6C7684;
+}
+
+.pop-up-form .control-group .text a {
+    color: #3A4452;
+    text-decoration: underline;
 }

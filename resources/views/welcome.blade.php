@@ -14,22 +14,19 @@
     </head>
     <body>
 
-    <div id="pop-up" class="pop-up " > <!-- pop-up-hide -->
+    <div id="pop-up" class="pop-up pop-up-hide " > <!-- pop-up-hide -->
 
         <div id="pop-up-inner-bg" class="pop-up-inner-bg">
         </div>
 
         <div class="pop-up-inner">
 
-            <div class="row no-gutters ">
-                <div class="form-column">
+            <div class="pop-up-form">
 
-                    <div class="inner-column">
-
-                        <div class="discount-form">
-
-                            <div class="section-title pop-up-section-title">
-                                <div class="pop-up-section-title-img"> <img id="pop-up-close" src="/images/close.svg" alt="close"></div>
+                            <div class="pop-up-section-title">
+                                <div class="pop-up-section-title-img">
+                                    <img id="pop-up-close" src="/images/close.svg" alt="close">
+                                </div>
                                 <div class="title">
                                     <span>Стать партнером</span>
                                 </div>
@@ -37,58 +34,49 @@
                                     <span>Укажите контактный данные</span>
                                 </div>
                             </div>
+
                             <form action="" method="post" class="ajax_form">
 
-                                <div class="control-group form-group">
-                                    <div class="controls">
-                                        <input type="text" name="name" value="" placeholder="Имя">
-                                        <span class="error_name"></span>
-                                    </div>
-                                </div>
-                                <div class="control-group form-group phone">
-                                    <div class="controls">
-                                        <input id="pop_up_special_phone" type="tel" name="phone" value="" placeholder="+375 (99) 99-99-999" minlength="9">
-                                        <span class="error_phone"></span>
-                                    </div>
-                                </div>
-                                <div class="control-group form-group email">
-                                    <div class="controls">
-                                        <input type="text" name="email" value="" placeholder="Email">
-                                        <span class="error_email"></span>
-                                    </div>
-                                </div>
-                                <div class="control-group form-group company">
-                                    <div class="controls">
-                                        <input type="text" name="company" value="" placeholder="Наименование компании">
-                                        <span class="error_company"></span>
-                                    </div>
-                                </div>
-                                <div class="control-group form-group city">
-                                    <div class="controls">
-                                        <input type="text" name="city" value="" placeholder="Город">
-                                        <span class="error_city"></span>
-                                    </div>
-                                </div>
-                                <div class="control-group form-group number">
-                                    <div class="controls">
-                                        <input type="text" name="number" value="" placeholder="ИНН">
-                                        <span class="error_number"></span>
-                                    </div>
+                                <div class="input-box w-100">
+                                    <input id="pop_up__name" name="pop_up__name" required="required" type="text">
+                                    <label for="pop_up__name"><span class="hide">Имя</span> <span class="red">*</span></label>
                                 </div>
 
+                                <div class="input-box w-50">
+                                    <input id="pop_up__phone" name="pop_up__phone" type="tel" required="required" minlength="9">
+                                    <label for="pop_up__phone"><span class="hide">Телефон</span> <span class="red">*</span></label>
+                                </div>
 
-                                <div class="control-group form-group send">
-                                    <div class="controls">
-                                        <button type="submit" class="btn btn-primary">Отправить</button>
+                                <div class="input-box w-50">
+                                    <input id="pop_up__email" name="pop_up__email" type="email" required="required">
+                                    <label for="pop_up__email"><span class="hide">Email</span> <span class="red">*</span></label>
+                                </div>
+
+                                <div class="input-box w-50">
+                                    <input id="pop_up__company" name="pop_up__company" type="text">
+                                    <label for="pop_up__company"><span class="hide">Наименование компании</span></label>
+                                </div>
+
+                                <div class="input-box w-50">
+                                    <input id="pop_up__city" name="pop_up__city" type="text">
+                                    <label for="pop_up__city"><span class="hide">Город</span></label>
+                                </div>
+
+                                <div class="input-box w-100">
+                                    <input id="pop_up__number" name="pop_up__number" type="text">
+                                    <label for="pop_up__number"><span class="hide">ИНН</span></label>
+                                </div>
+
+                                <div class="control-group">
+                                    <div class="send">
+                                        <button type="submit"><span>Отправить</span></button>
                                     </div>
                                     <div class="text">
-                                        <span>Нажимая кнопку «Отправить», вы соглашаетесь c <a href="/">политикой конфидециальности и пользовательским соглашением</a>></span>
+                                        <span>Нажимая кнопку «Отправить», вы соглашаетесь c <a href="/">политикой конфидециальности и пользовательским соглашением</a></span>
                                     </div>
                                 </div>
                             </form>
-                        </div>
-                    </div>
-                </div>
+
             </div>
         </div>
     </div>
